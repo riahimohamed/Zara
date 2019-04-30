@@ -1,0 +1,48 @@
+/* Zara Application create by Mohammed Riahi. */
+
+body{
+	 background: url(../images/sac.jpg) fixed no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    background-position: left center;
+    background-size: 40% auto;
+    background-color: #ececee;
+}
+
+.search{
+    float: left;
+}
+.zone-search{
+    margin-left: 20px;
+}
+.search input[type=number] {
+	margin: 20px 0;
+	padding: 10px;
+    width: 35%;
+    height: 35px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+.search i{
+    font-size: 18px;
+    top: 3px;
+}
+
+/* When the input field gets focus, change its width to 100% */
+.search input[type=number]:focus {
+    width: 40%;
+}
+
+.search thead{
+    background-color: #ffffffde;
+}
+
+.search thead tr th{
+    text-align: center;
+}
+
+.search table tbody tr{background-color: #ffffffde;}

@@ -1,0 +1,11 @@
+body {
+        background: url(../images/background-magasin.jpg) fixed no-repeat;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+    section{
+        float: right;
+        margin: 100px;
+    }

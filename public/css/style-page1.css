@@ -1,0 +1,28 @@
+body{
+	background: url("../images/background-page1.jpg") fixed no-repeat;
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+}
+
+section{
+	position: absolute;
+	top: 30%;
+	right: 5%;
+
+}
+
+.bnts{
+	width: 400px;
+	height: 200px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+
+}
+
+.btn{
+	width: 150px;
+}

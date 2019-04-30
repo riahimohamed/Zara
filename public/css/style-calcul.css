@@ -1,0 +1,47 @@
+body
+{
+background: url("../images/4387002506_2_1_1.jpg") fixed no-repeat;
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+}
+
+section{
+	position: absolute;
+	top: 3%;
+	left: 60%;
+	margin-bottom: 200px;
+
+}
+
+#form-calcul{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	
+}
+
+.form-group{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	flex-wrap: nowrap;
+
+}
+
+.form-control{
+	width: 180px;
+	height: 34px;
+	margin-right: 20px;
+}
+
+.btn{
+	margin-left: 340px;
+}
+
+h6{
+	display: inline;
+}

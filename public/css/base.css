@@ -1,0 +1,29 @@
+.modal .modal-header, .modal-footer{
+    background-color: #292c2f;
+}
+
+.modal .modal-header .close{
+    color: white;
+}
+
+.modal .modal-header .modal-title{
+    color: white;
+}
+
+.modal .modal-body .form-group input{
+    width: 300px;
+}
+
+.modal .modal-body .form-group label {
+    color: #337ab7;
+}
+
+.modal .modal-body .form-group select{
+    width: 300px;
+    height: 35px;
+}
+
+.modal .modal-body .form-group .email-user{
+    width: 250px;
+    height: 35px;
+}

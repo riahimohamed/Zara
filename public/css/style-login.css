@@ -1,0 +1,22 @@
+body{
+	background: url("../images/background-login.jpg") fixed no-repeat;
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    
+}
+
+section{
+	position: absolute;
+	top: 45%;
+	left: 68%;
+
+}
+
+#form-login{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	
+}
